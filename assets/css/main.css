@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Jost", sans-serif;
+}
+            
+.stylish {
+    padding: 30px 0 8px;
+    position: relative;
+  }
+  
+  .stylish::before {
+    content: "";
+    position: absolute;
+    left: 7%;
+    bottom: 16px;
+    width: 150px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: orange;
+    z-index: -1;
+  }
+      
+  
