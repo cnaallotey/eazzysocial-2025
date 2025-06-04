@@ -74,8 +74,8 @@
           </div>
 
           <NuxtLink 
-                to="/contact" 
-                class="inline-flex justify-center items-center px-8 py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-sky-700 transition-colors duration-300"
+                to="/register" 
+                class="inline-flex justify-center items-center px-8 py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors duration-300"
               >
                 Start Free Trial
               </NuxtLink>

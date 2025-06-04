@@ -124,7 +124,7 @@
         <!-- CTA Section -->
         <div class="mt-16 text-center">
           <NuxtLink 
-            to="/contact" 
+            to="/register" 
             class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-sky-600 hover:bg-sky-700 transition-colors duration-300"
           >
             Get Started

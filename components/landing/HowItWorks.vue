@@ -43,7 +43,7 @@
       <!-- CTA Section -->
       <div class="text-center mt-5">
         <NuxtLink 
-          to="/contact" 
+          to="/register" 
           class="inline-block bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-300"
         >
           Start Your Free Month

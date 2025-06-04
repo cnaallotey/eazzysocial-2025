@@ -114,7 +114,7 @@ const clientPortfolio = [
             <p class="mt-6 text-sm text-sky-600">Perfect for: Micro and small business owners trying to grow from zero to GHS500,000 in sales per year.</p>
 
             <NuxtLink 
-              to="/contact" 
+              to="/register" 
               class="mt-5 py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-sky-600 text-sky-600 hover:border-sky-500 hover:text-sky-500 focus:outline-hidden focus:border-sky-500 focus:text-sky-500"
             >
               Get Started
@@ -191,7 +191,7 @@ const clientPortfolio = [
             <p class="mt-6 text-sm text-sky-600">Perfect for: Businesses already making GHS500,000 to GHS1 million+ and want to grow faster.</p>
 
             <NuxtLink 
-              to="/contact" 
+              to="/register" 
               class="mt-5 py-3 px-4 w-full inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-sky-600 text-sky-600 hover:border-sky-500 hover:text-sky-500 focus:outline-hidden focus:border-sky-500 focus:text-sky-500"
             >
               Get Started

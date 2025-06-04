@@ -80,7 +80,7 @@
               🎯 No contract. No pressure. We help you test our work and see real impact — before you commit.
             </p>
             <NuxtLink
-              to="/contact"
+              to="/register"
               class="inline-flex items-center justify-center px-8 py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors duration-300"
             >
               Start Your Free Trial

@@ -11,21 +11,21 @@
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center space-x-8">
-          <NuxtLink to="/services" class="text-gray-600 hover:text-sky-600 transition-colors">
-            Services
+          <NuxtLink to="/#growth-consulting" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Growth Consulting
           </NuxtLink>
-          <NuxtLink to="/pricing" class="text-gray-600 hover:text-sky-600 transition-colors">
-            Pricing
+          <NuxtLink to="/#shop-attendant-course" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Digital Sales
           </NuxtLink>
-          <NuxtLink to="/about" class="text-gray-600 hover:text-sky-600 transition-colors">
-            About
+          <NuxtLink to="/#training" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Training
           </NuxtLink>
-          <NuxtLink to="/contact" class="text-gray-600 hover:text-sky-600 transition-colors">
-            Contact
+          <NuxtLink to="/#sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
+            SME Academy
           </NuxtLink>
-          <button class="bg-orange-600 text-white px-4 py-2 font-medium rounded-lg hover:bg-orange-700 transition-colors">
+          <NuxtLink to="/register" class="bg-orange-600 text-white px-4 py-2 font-medium rounded-lg hover:bg-orange-700 transition-colors">
             Get Started
-          </button>
+          </NuxtLink>
         </div>
 
         <!-- Mobile menu button -->
@@ -63,34 +63,22 @@
         v-show="isMenuOpen" 
         class="md:hidden"
       >
-        <div class="px-2 pt-2 pb-3 space-y-1">
-          <NuxtLink 
-            to="/services" 
-            class="block px-3 py-2 text-gray-600 hover:text-sky-600 hover:bg-gray-50 rounded-md"
-          >
-            Services
+        <div class="px-2 pt-2 flex flex-col pb-3 space-y-4">
+          <NuxtLink to="/#growth-consulting" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Growth Consulting
           </NuxtLink>
-          <NuxtLink 
-            to="/pricing" 
-            class="block px-3 py-2 text-gray-600 hover:text-sky-600 hover:bg-gray-50 rounded-md"
-          >
-            Pricing
+          <NuxtLink to="/#shop-attendant-course" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Digital Sales
           </NuxtLink>
-          <NuxtLink 
-            to="/about" 
-            class="block px-3 py-2 text-gray-600 hover:text-sky-600 hover:bg-gray-50 rounded-md"
-          >
-            About
+          <NuxtLink to="/#training" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Training
           </NuxtLink>
-          <NuxtLink 
-            to="/contact" 
-            class="block px-3 py-2 text-gray-600 hover:text-sky-600 hover:bg-gray-50 rounded-md"
-          >
-            Contact
+          <NuxtLink to="/#sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
+            SME Academy
           </NuxtLink>
-          <button class="w-full mt-4 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-sky-700 transition-colors">
+          <NuxtLink to="/register" class="w-full mt-4 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-sky-700 transition-colors">
             Start Free Trial
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>

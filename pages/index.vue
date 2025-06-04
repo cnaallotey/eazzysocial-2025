@@ -6,20 +6,20 @@
     <div class="pt-16">
       <LandingHeroSection />
       <LandingHowItWorks />
-      <LandingHowWeHelpSection />
+      <LandingHowWeHelpSection id="growth-consulting" class="scroll-mt-20" />
       <LandingPricingSection />
       <LandingFreeTrialOfferSection />
-      <LandingVentureRiseHeroSection />
+      <LandingVentureRiseHeroSection id="sme-academy" class="scroll-mt-20" />
     <LandingVentureRiseOverviewSection />
     <LandingVentureRiseFeaturesSection />
     <LandingVentureRiseBonusSection />
     <LandingVentureRiseCTASection />
-    <LandingOnlineShopAttendant />
+    <LandingOnlineShopAttendant id="shop-attendant-course" class="scroll-mt-20" />
     <LandingShopAttendantsSkills />
     <LandingAdvancedBusinessSkills />
     <LandingBusinessSkillsTarget />
       <LandingCEOSection />
-      <LandingVentureRiseCorporateTrainingSection />
+      <LandingVentureRiseCorporateTrainingSection id="training" class="scroll-mt-20" />
       <LandingWhyChooseUsSection />
       <LandingOurJourneySection />
       <LandingFreeTrialSection />

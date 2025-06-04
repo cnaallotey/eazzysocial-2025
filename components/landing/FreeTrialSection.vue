@@ -32,13 +32,13 @@
             <!-- CTA Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <NuxtLink 
-                to="/contact" 
+                to="/register" 
                 class="inline-flex justify-center items-center px-8 py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-sky-700 transition-colors duration-300"
               >
                 Start Free Trial
               </NuxtLink>
               <NuxtLink 
-                to="/contact" 
+                to="/#training" 
                 class="inline-flex justify-center items-center px-8 py-4 border border-sky-600 text-sky-600 font-semibold rounded-lg hover:bg-sky-50 transition-colors duration-300"
               >
                 Learn More
