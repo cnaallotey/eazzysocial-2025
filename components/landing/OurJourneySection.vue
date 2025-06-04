@@ -73,6 +73,10 @@
         </div>
 
       </div>
+<div class="max-w-5xl mx-auto mt-10">
+  <LandingGallerySlider />
+</div>
+      
     </div>
   </section>
 </template>

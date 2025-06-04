@@ -9,7 +9,7 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
         <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
-          <img class="w-full aspect-[3/4] object-cover rounded-xl" src="https://images.pexels.com/photos/8555769/pexels-photo-8555769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Training Image">
+          <img class="w-full aspect-[3/4] object-cover rounded-xl" src="/images/training.jpg" alt="Training Image">
         </div>
 
         <div>
