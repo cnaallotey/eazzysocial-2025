@@ -286,16 +286,16 @@
   <!-- End Grid -->
 </div>
 <!-- End Hire Us -->
+    <CustomToast ref="toastRef" />
     </div>
 </template>
 
 <script setup lang="js">
 import { ref } from 'vue'
-import { useToast } from 'vue-toastification'
 
-const toast = useToast()
 const isLoading = ref(false)
 const formRef = ref(null)
+const toastRef = ref(null) // Ref for the custom toast component
 
 const formData = ref({
   fullName: '',
@@ -327,13 +327,15 @@ const handleSubmit = async () => {
       throw new Error('Failed to submit form')
     }
 
-    toast.success('Registration submitted successfully! We will contact you soon.')
+    // Use the custom toast component
+    toastRef.value.showToast('Registration submitted successfully! We will contact you soon.', 'success')
     
     // Reset form
     formRef.value.reset()
   } catch (error) {
     console.error('Form submission error:', error)
-    toast.error('Failed to submit registration. Please try again.')
+    // Use the custom toast component
+    toastRef.value.showToast('Failed to submit registration. Please try again.', 'error')
   } finally {
     isLoading.value = false
   }
