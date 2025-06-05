@@ -71,8 +71,11 @@
           </span>
         </div>
         <!-- End Avatar Group -->
-        <span class="text-base md:text-lg font-bold text-white">
+        <span class="text-base hidden md:block md:text-lg font-bold text-white">
           and over 50k SMEs
+        </span>
+        <span class="text-base md:hidden md:text-lg font-bold text-white">
+          Trusted by over 50k SMEs
         </span>
       </div>
     </div>
