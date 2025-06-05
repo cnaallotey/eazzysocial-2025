@@ -12,5 +12,12 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/ui'
   ],
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/images/favicon.png' }
+      ]
+    }
+  },
   vite: {    plugins: [      tailwindcss(),    ]}
 })

@@ -85,7 +85,7 @@
           <p class="mt-2 text-gray-600">Fill out the form below to get started with our services</p>
         </div>
 
-        <form class="space-y-6" @submit.prevent="handleSubmit">
+        <form class="space-y-6" @submit.prevent="handleSubmit" ref="formRef">
           <!-- Full Name -->
           <div>
             <label for="fullName" class="block text-sm font-medium text-gray-700">
@@ -295,6 +295,7 @@ import { useToast } from 'vue-toastification'
 
 const toast = useToast()
 const isLoading = ref(false)
+const formRef = ref(null)
 
 const formData = ref({
   fullName: '',
@@ -312,9 +313,11 @@ const handleSubmit = async () => {
   try {
     isLoading.value = true
     
+    const formData = new FormData(formRef.value)
+    
     const response = await fetch('https://getform.io/f/bronnvva', {
       method: 'POST',
-      body: new FormData(formData.value),
+      body: formData,
       headers: {
         'Accept': 'application/json'
       }
@@ -327,17 +330,7 @@ const handleSubmit = async () => {
     toast.success('Registration submitted successfully! We will contact you soon.')
     
     // Reset form
-    formData.value = {
-      fullName: '',
-      businessName: '',
-      email: '',
-      phone: '',
-      location: '',
-      description: '',
-      website: '',
-      socialMedia: '',
-      businessDuration: ''
-    }
+    formRef.value.reset()
   } catch (error) {
     console.error('Form submission error:', error)
     toast.error('Failed to submit registration. Please try again.')

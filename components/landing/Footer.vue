@@ -1,11 +1,12 @@
 <template>
   <footer class="bg-gray-900 text-gray-300">
-    <div class="container mx-auto px-4 py-12">
+    <div class="max-w-5xl mx-auto px-4 py-12">
       <!-- Main Footer Content -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+      <div class="grid grid-cols-1 gap-8 mb-8">
         <!-- Company Info -->
-        <div>
-          <h3 class="text-white text-xl font-bold mb-4">Eazzysocial</h3>
+        <div class="text-center flex flex-col items-center-safe">
+          <img src="/images/logo-light.png" class="h-7 md:h-8 mb-5" alt="logo">
+          <!-- <h3 class="text-white text-xl font-bold mb-4">Eazzysocial</h3> -->
           <p class="mb-4">
             Helping businesses grow through digital marketing, social media management, and smart automation solutions.
           </p>
@@ -34,7 +35,7 @@
         </div>
 
         <!-- Quick Links -->
-        <div>
+        <div class="hidden">
           <h3 class="text-white text-xl font-bold mb-4">Quick Links</h3>
           <ul class="space-y-2">
             <li>
@@ -66,7 +67,7 @@
         </div>
 
         <!-- Services -->
-        <div>
+        <div class="hidden">
           <h3 class="text-white text-xl font-bold mb-4">Our Services</h3>
           <ul class="space-y-2">
             <li>
@@ -98,9 +99,9 @@
         </div>
 
         <!-- Contact Info -->
-        <div>
-          <h3 class="text-white text-xl font-bold mb-4">Contact Us</h3>
-          <ul class="space-y-2">
+        <div class="flex flex-col items-center">
+          <!-- <h3 class="text-white text-xl font-bold mb-4">Contact Us</h3> -->
+          <ul class="gap-4 flex-wrap flex items-center justify-center">
             <li class="flex items-start">
               <svg class="h-6 w-6 mr-2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
@@ -126,11 +127,11 @@
 
       <!-- Bottom Bar -->
       <div class="border-t border-gray-800 pt-8">
-        <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex flex-col md:flex-row justify-center items-center">
           <p class="text-sm">
             © {{ new Date().getFullYear() }} Eazzysocial. All rights reserved.
           </p>
-          <div class="flex space-x-6 mt-4 md:mt-0">
+          <div class="hidden space-x-6 mt-4 md:mt-0">
             <NuxtLink to="/privacy" class="text-sm hover:text-white transition-colors">
               Privacy Policy
             </NuxtLink>

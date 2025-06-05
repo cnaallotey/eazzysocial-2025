@@ -5,7 +5,7 @@
         <!-- Logo -->
         <div class="flex-shrink-0">
           <NuxtLink to="/" class="text-2xl font-bold text-sky-600">
-            Eazzysocial
+            <img src="/images/logo.svg" class="h-6 md:h-8" alt="logo">
           </NuxtLink>
         </div>
 
