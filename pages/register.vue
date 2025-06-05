@@ -291,7 +291,8 @@
 
 <script setup lang="js">
 import { ref } from 'vue'
-import { useToast } from 'vue-toastification'
+import pkg from 'vue-toastification';
+const { useToast } = pkg;
 
 const toast = useToast()
 const isLoading = ref(false)
