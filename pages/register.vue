@@ -292,8 +292,8 @@
 <script setup lang="js">
 import { ref } from 'vue'
 import pkg from 'vue-toastification';
-const { useToast } = pkg;
 
+const useToast = pkg;
 const toast = useToast()
 const isLoading = ref(false)
 const formRef = ref(null)
