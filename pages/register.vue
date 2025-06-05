@@ -7,7 +7,7 @@
     <div class="p-4 md:p-8 bg-sky-900 rounded-3xl">
         <div class="flex-shrink-0 mb-4">
           <NuxtLink to="/" class="text-2xl font-bold text-white mb-10">
-            Eazzysocial
+            <img src="/images/logo-light.png" class="h-7 md:h-8 mb-5" alt="logo">
           </NuxtLink>
         </div>
       <h1 class="text-3xl font-semibold text-orange-500 sm:text-4xl lg:text-4xl lg:leading-tight dark:text-white">
