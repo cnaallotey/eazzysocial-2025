@@ -1,62 +1,3 @@
-<script setup lang="js">
-const clientPortfolio = [
-  {
-    id: 1,
-    name: "Peduase Valley Resort",
-    service: "Enhancing hospitality marketing to attract more visitors",
-    industry: "Hospitality"
-  },
-  {
-    id: 2,
-    name: "Airport West Hotel",
-    service: "Boosting online bookings through targeted campaigns",
-    industry: "Hospitality"
-  },
-  {
-    id: 3,
-    name: "Parliament of Ghana",
-    service: "Supporting digital communication strategies",
-    industry: "Government"
-  },
-  {
-    id: 4,
-    name: "NADMO (National Disaster Management Organization)",
-    service: "Improving outreach and public engagement",
-    industry: "Government"
-  },
-  {
-    id: 5,
-    name: "Castrol Oil",
-    service: "Managing brand presence and promotional campaigns",
-    industry: "Oil & Gas"
-  },
-  {
-    id: 6,
-    name: "Mantrac Ghana",
-    service: "Supporting heavy equipment sales and digital lead generation",
-    industry: "Heavy Equipment"
-  },
-  {
-    id: 7,
-    name: "Embassy of Denmark in Ghana",
-    service: "Facilitating cultural and community outreach campaigns",
-    industry: "Government/Diplomatic"
-  },
-  {
-    id: 8,
-    name: "Morgan International Community School",
-    service: "Strengthening enrollment and awareness through digital channels",
-    industry: "Education"
-  },
-  {
-    id: 9,
-    name: "TEMA TDC Development Corporation",
-    service: "Enhancing local development projects through strategic marketing",
-    industry: "Development/Construction"
-  }
-];
-</script>
-
 <template>
   <section class="py-20 bg-white">
     <div class="container mx-auto px-4">
@@ -198,18 +139,6 @@ const clientPortfolio = [
             </NuxtLink>
           </div>
         </div>
-
-        <!-- Title -->
-        <div class="w-2/3 sm:w-1/2 lg:w-2/3 mx-auto text-center mt-10 md:mt-14 mb-6 lg:mt-24">
-          <h2 class="text-gray-600 md:text-xl dark:text-neutral-400">We’re proud to have partnered with a diverse range of clients—from established corporations and government institutions to thriving small and medium enterprises and ambitious solopreneurs. Our expertise has helped them grow, optimize, and succeed in their digital marketing and business goals.</h2>
-        </div>
-        <!-- End Title -->
-
-        <!-- Clients -->
-        <div class="flex justify-center gap-6 sm:gap-12 lg:gap-18 flex-wrap">
-          <img v-for="item in clientPortfolio" :key="item.id" :src="`/images/clients/${item.id}.png`" class="h-24 w-auto md:saturate-0 hover:saturate-100 transition-all ease-linear duration-100" :alt="item.name">
-        </div>
-        <!-- End Clients -->
       </div>
     </div>
   </section>

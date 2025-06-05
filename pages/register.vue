@@ -14,7 +14,7 @@
         Register Your Busines
       </h1>
       <p class="mt-1 md:text-lg text-white dark:text-neutral-200">
-        We help brands and platforms turn big ideas into beautiful digital products and experiences.
+        We help small and high growth businesses acquire large customers and keep them.
       </p>
 
       <div class="mt-8">
@@ -24,7 +24,7 @@
 
         <ul class="mt-2 space-y-2">
           <li class="flex gap-x-3">
-            <svg class="shrink-0 mt-0.5 size-5 text-neutral-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg class="shrink-0 mt-0.5 size-5 text-neutral-200" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
             <span class="text-neutral-200">
               Industry-leading support
             </span>
@@ -47,7 +47,7 @@
       </div>
 
       <!-- Brands -->
-      <div class="mt-8">
+      <div class="mt-8 hidden md:block">
         <h2 class="text-lg font-semibold text-white">
           Trusted by:
         </h2>
@@ -64,15 +64,15 @@
           <!-- <img class="inline-block size-8 rounded-full ring-2 ring-white dark:ring-neutral-900" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
           <img class="inline-block size-8 rounded-full ring-2 ring-white dark:ring-neutral-900" src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2.5&w=320&h=320&q=80" alt="Avatar">
           <img class="inline-block size-8 rounded-full ring-2 ring-white dark:ring-neutral-900" src="https://images.unsplash.com/photo-1541101767792-f9b2b1c4f127?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Avatar"> -->
-          <span class="inline-flex justify-center items-center size-8 rounded-full bg-blue-600 text-white ring-2 ring-white">
+          <span class="inline-flex justify-center items-center size-8 rounded-full bg-orange-600 text-white ring-2 ring-white">
             <svg class="size-3.5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
               <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
             </svg>
           </span>
         </div>
         <!-- End Avatar Group -->
-        <span class="text-sm md:text-lg text-white">
-          and over 10k SMEs
+        <span class="text-base md:text-lg font-bold text-white">
+          and over 50k SMEs
         </span>
       </div>
     </div>
@@ -104,12 +104,13 @@
           <!-- Business Name -->
           <div>
             <label for="businessName" class="block text-sm font-medium text-gray-700">
-              Business Name
+              Business Name <span class="text-red-500">*</span>
             </label>
             <input
               id="businessName"
               type="text"
               name="businessName"
+              required
               class="mt-1 block w-full rounded-lg border-gray-300 border-2  focus:border-sky-500 focus:ring-sky-500 py-2 px-2"
               v-model="formData.businessName"
             >
@@ -133,12 +134,13 @@
           <!-- Phone Number -->
           <div>
             <label for="phone" class="block text-sm font-medium text-gray-700">
-              Phone Number (Optional)
+              Phone Number <span class="text-red-500">*</span>
             </label>
             <input
               id="phone"
               type="tel"
               name="phone"
+              required
               class="mt-1 block w-full rounded-lg border-gray-300 border-2  focus:border-sky-500 focus:ring-sky-500 py-2 px-2"
               v-model="formData.phone"
             >
@@ -147,12 +149,13 @@
           <!-- Location / Country -->
           <div>
             <label for="location" class="block text-sm font-medium text-gray-700">
-              Location / Country
+              Location / Country <span class="text-red-500">*</span>
             </label>
             <input
               id="location"
               type="text"
               name="location"
+              required
               class="mt-1 block w-full rounded-lg border-gray-300 border-2  focus:border-sky-500 focus:ring-sky-500 py-2 px-2"
               v-model="formData.location"
             >
@@ -161,7 +164,7 @@
           <!-- Business Description -->
           <div>
             <label for="description" class="block text-sm font-medium text-gray-700">
-              Business Description – What do you sell or offer?
+              Business Description – What do you sell or offer? <span class="text-red-500">*</span>
             </label>
             <p class="mt-1 text-sm text-gray-500 mb-2">
               Briefly describe your product or service offering
@@ -170,6 +173,7 @@
               id="description"
               name="description"
               rows="4"
+              required
               class="mt-1 block w-full rounded-lg border-gray-300 border-2  focus:border-sky-500 focus:ring-sky-500 py-2 px-2"
               v-model="formData.description"
             />
@@ -178,12 +182,13 @@
           <!-- Website -->
           <div>
             <label for="website" class="block text-sm font-medium text-gray-700">
-              Website (if any)
+              Website <span class="text-red-500">*</span>
             </label>
             <input
               id="website"
               type="url"
               name="website"
+              required
               class="mt-1 block w-full rounded-lg border-gray-300 border-2  focus:border-sky-500 focus:ring-sky-500 py-2 px-2"
               v-model="formData.website"
             >
@@ -192,7 +197,7 @@
           <!-- Social Media Handles -->
           <div>
             <label for="socialMedia" class="block text-sm font-medium text-gray-700">
-              Social Media Handle(s)
+              Social Media Handle(s) <span class="text-red-500">*</span>
             </label>
             <p class="mt-1 text-sm text-gray-500 mb-2">
               Instagram, Facebook, LinkedIn, TikTok, Snapchat, etc.
@@ -201,6 +206,7 @@
               id="socialMedia"
               name="socialMedia"
               rows="3"
+              required
               class="mt-1 block w-full rounded-lg border-gray-300 border-2  focus:border-sky-500 focus:ring-sky-500 py-2 px-2"
               v-model="formData.socialMedia"
             />
@@ -209,7 +215,7 @@
           <!-- Business Duration -->
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-3">
-              How long have you been in business?
+              How long have you been in business? <span class="text-red-500">*</span>
             </label>
             <div class="space-y-2">
               <div class="flex items-center">
@@ -218,6 +224,7 @@
                   type="radio"
                   name="businessDuration"
                   value="less-than-1"
+                  required
                   class="h-4 w-4 text-sky-600 focus:ring-sky-500 py-2 px-2 border-gray-300"
                   v-model="formData.businessDuration"
                 >
@@ -231,6 +238,7 @@
                   type="radio"
                   name="businessDuration"
                   value="1-3"
+                  required
                   class="h-4 w-4 text-sky-600 focus:ring-sky-500 py-2 px-2 border-gray-300"
                   v-model="formData.businessDuration"
                 >
@@ -244,6 +252,7 @@
                   type="radio"
                   name="businessDuration"
                   value="3-5"
+                  required
                   class="h-4 w-4 text-sky-600 focus:ring-sky-500 py-2 px-2 border-gray-300"
                   v-model="formData.businessDuration"
                 >
@@ -257,6 +266,7 @@
                   type="radio"
                   name="businessDuration"
                   value="over-5"
+                  required
                   class="h-4 w-4 text-sky-600 focus:ring-sky-500 py-2 px-2 border-gray-300"
                   v-model="formData.businessDuration"
                 >

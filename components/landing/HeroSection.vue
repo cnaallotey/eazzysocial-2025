@@ -12,7 +12,7 @@
           <button @click="navigateTo('/register')" class="bg-white text-sky-600 px-8 py-3 rounded-lg font-semibold hover:bg-sky-50 transition-colors">
             Try our growth services free for a month
           </button>
-          <button class="bg-transparent border-2 border-white  px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">
+          <button @click="navigateTo('/register')" class="bg-transparent border-2 border-white  px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">
             Join a free seminar to learn more
           </button>
         </div>

@@ -21,8 +21,9 @@
       <LandingCEOSection />
       <LandingVentureRiseCorporateTrainingSection id="training" class="scroll-mt-20" />
       <LandingWhyChooseUsSection />
-      <LandingOurJourneySection />
+      <LandingOurJourneySection id="journey" class="scroll-mt-20" />
       <LandingFreeTrialSection />
+      <LandingWelcomeModal />
       <LandingFooter />
     </div>
   </div>

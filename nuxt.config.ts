@@ -16,6 +16,9 @@ export default defineNuxtConfig({
     head: {
       link: [
         { rel: 'icon', type: 'image/png', href: '/images/favicon.png' }
+      ],
+      script: [
+        { src: 'https://unpkg.com/preline@2.0.0/dist/preline.js', body: true }
       ]
     }
   },
