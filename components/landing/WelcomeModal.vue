@@ -24,11 +24,11 @@
           </p>
   
           <div class="mt-6 flex justify-center gap-x-4">
-            <NuxtLink to="/#journey" type="button"  class="py-2 px-8 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-orange-600 text-white hover:bg-orange-700 focus:outline-hidden focus:bg-orange-700 disabled:opacity-50 disabled:pointer-events-none" data-hs-overlay="#hs-subscription-with-image" @click="closeBanner()">
-              Learn About Our Journey
+            <NuxtLink to="/#growth-consulting " type="button"  class="py-2 px-8 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-orange-600 text-white hover:bg-orange-700 focus:outline-hidden focus:bg-orange-700 disabled:opacity-50 disabled:pointer-events-none" data-hs-overlay="#hs-subscription-with-image" @click="closeBanner()">
+              Explore Our New Services 
             </NuxtLink>
-            <NuxtLink to="/#growth-consulting" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-orange-600 hover:text-orange-800 focus:outline-hidden focus:text-orange-800 disabled:opacity-50 disabled:pointer-events-none dark:text-orange-500 dark:hover:text-orange-400 dark:focus:text-orange-400" @click="closeBanner()">
-              Explore Our New Services
+            <NuxtLink to="/#journey" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-orange-600 hover:text-orange-800 focus:outline-hidden focus:text-orange-800 disabled:opacity-50 disabled:pointer-events-none dark:text-orange-500 dark:hover:text-orange-400 dark:focus:text-orange-400" @click="closeBanner()">
+              Learn About Our Journey
           </NuxtLink>
           </div>
         </div>

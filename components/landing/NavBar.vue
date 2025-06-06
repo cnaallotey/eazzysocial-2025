@@ -23,6 +23,9 @@
           <NuxtLink to="/#sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
             SME Academy
           </NuxtLink>
+          <NuxtLink to="/#pricing" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Pricing
+          </NuxtLink>
           <NuxtLink to="/#journey" class="text-gray-600 hover:text-sky-600 transition-colors">
             About Us
           </NuxtLink>
@@ -78,6 +81,9 @@
           </NuxtLink>
           <NuxtLink to="/#sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
             SME Academy
+          </NuxtLink>
+          <NuxtLink to="/#pricing" class="text-gray-600 hover:text-sky-600 transition-colors">
+            Pricing
           </NuxtLink>
           <NuxtLink to="/#journey" class="text-gray-600 hover:text-sky-600 transition-colors">
             About Us

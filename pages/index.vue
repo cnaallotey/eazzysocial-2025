@@ -7,7 +7,7 @@
       <LandingHeroSection />
       <LandingHowItWorks />
       <LandingHowWeHelpSection id="growth-consulting" class="scroll-mt-20" />
-      <LandingPricingSection />
+      <LandingPricingSection id="pricing" class="scroll-mt-20" />
       <LandingFreeTrialOfferSection />
       <LandingVentureRiseHeroSection id="sme-academy" class="scroll-mt-20" />
     <LandingVentureRiseOverviewSection />
