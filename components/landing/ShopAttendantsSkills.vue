@@ -110,20 +110,22 @@
             </svg>`
     },
     {
-      title: 'Virtual Assistant Tasks',
-      desc: 'Handling tasks like scheduling meetings, organizing files, responding to general inquiries',
-      icon: `<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <path d="M3 9h18" />
-            </svg>`
-    },
-    {
       title: 'Basic Administration',
       desc: 'Supporting daily business operations—e.g., creating documents, maintaining records, updating databases',
       icon:   ` <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <rect x="2" y="7" width="20" height="14" rx="2" />
               <path d="M22 5l-10 7L2 5" />
             </svg>`
-    }
+    },
+  {
+    title: 'Essential Graphic Design',
+    desc: 'Create basic promotional flyers, price lists, social media posts using Canva or similar tools',
+    icon: `<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M8 8h8v8H8z" /></svg>`
+  },
+  {
+    title: 'AI & Automation Tools',
+    desc: 'Use chatbots or automation tools to auto-respond to messages, send receipts, or manage stock updates',
+    icon: `<svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" /><path d="M8 12h8M8 16h6M8 8h8" /></svg>`
+  }
   ]
   </script>

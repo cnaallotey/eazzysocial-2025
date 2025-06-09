@@ -322,6 +322,14 @@ const formData = ref({
   businessDuration: ''
 })
 
+const {query} = useRoute()
+
+onMounted(()=> {
+  if(query.email){
+    formData.value.email = query.email
+  }
+})
+
 const handleSubmit = async () => {
   try {
     isLoading.value = true

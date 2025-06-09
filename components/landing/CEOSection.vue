@@ -30,7 +30,7 @@
                 </div>
               </div>
               <p class="text-gray-700">
-                With over a decade of experience driving revenue and business growth across Africa, Gad Ocran is the visionary behind Eazzysocial+ and Thrive Africa. He started his journey at just 12 years old, helping local businesses grow through social media while still in high school.
+                With over a decade of experience driving revenue and business growth across Africa, Gad Ocran is the visionary behind Eazzysocial and Thrive Africa. He started his journey at just 12 years old, helping local businesses grow through social media while still in high school.
               </p>
             </div>
 

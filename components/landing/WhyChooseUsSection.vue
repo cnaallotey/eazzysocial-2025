@@ -85,10 +85,13 @@
             </p>
             
             <!-- Sign Up Form -->
-            <form class="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
+            <form class="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto" @submit.prevent="submit()">
               <input 
-                type="email" 
+                id="email" 
+                v-model="contact.email"
+                type="email"
                 placeholder="Enter your email" 
+                required
                 class="flex-1 px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:border-sky-500"
               >
               <button 
@@ -105,8 +108,10 @@
   </section>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'WhyChooseUsSection'
-}
+<script setup lang="ts">
+const contact = ref({email: ''})
+
+const submit =  async () => {
+  await navigateTo(`/register?email=${contact.value.email}`)
+} 
 </script> 

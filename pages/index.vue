@@ -12,11 +12,11 @@
       <LandingVentureRiseHeroSection id="sme-academy" class="scroll-mt-20" />
     <LandingVentureRiseOverviewSection />
     <LandingVentureRiseFeaturesSection />
-    <LandingVentureRiseBonusSection />
+    <!-- <LandingVentureRiseBonusSection /> -->
     <LandingVentureRiseCTASection />
     <LandingOnlineShopAttendant id="shop-attendant-course" class="scroll-mt-20" />
     <LandingShopAttendantsSkills />
-    <LandingAdvancedBusinessSkills />
+    <!-- <LandingAdvancedBusinessSkills /> -->
     <LandingBusinessSkillsTarget />
       <LandingCEOSection />
       <LandingVentureRiseCorporateTrainingSection id="training" class="scroll-mt-20" />

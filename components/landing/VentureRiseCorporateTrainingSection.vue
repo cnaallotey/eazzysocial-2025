@@ -4,7 +4,7 @@
       <div class="max-w-3xl mb-10 lg:mb-14">
         <h2 class="text-gray-900 font-bold text-2xl md:text-4xl md:leading-tight">Eazzysocial <span class="text-orange-500">Corporate & SME Training</span></h2>
         <p class="mt-1 text-gray-500 hidden">Coming Soon: Growth Marketing, Social Media & Digital Marketing Programs</p>
-        <p class="mt-1 text-gray-800 font-medium text-lg">At Eazzysocial, we understand that today's business landscape demands agility, innovation, and digital savvy to thrive. Whether you're a growing SME or a corporate team looking to sharpen your marketing edge, our upcoming training programs are designed to equip your workforce with the latest growth marketing strategies and digital skills needed to drive measurable business results.</p>
+        <p class="mt-1 hidden text-gray-800 font-medium text-lg">At Eazzysocial, we understand that today's business landscape demands agility, innovation, and digital savvy to thrive. Whether you're a growing SME or a corporate team looking to sharpen your marketing edge, our upcoming training programs are designed to equip your workforce with the latest growth marketing strategies and digital skills needed to drive measurable business results.</p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">

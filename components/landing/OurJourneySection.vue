@@ -82,7 +82,7 @@
   <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
     Businesses and Organizations That <span class="text-orange-500">Trust Eazzysocial</span>
           </h2>
-          <h3 class="text-gray-600 md:text-xl dark:text-neutral-400">We’re proud to have partnered with a diverse range of clients—from established corporations and government institutions to thriving small and medium enterprises and ambitious solopreneurs. Our expertise has helped them grow, optimize, and succeed in their digital marketing and business goals.</h3>
+          <!-- <h3 class="text-gray-600 md:text-xl dark:text-neutral-400">We’re proud to have partnered with a diverse range of clients—from established corporations and government institutions to thriving small and medium enterprises and ambitious solopreneurs. Our expertise has helped them grow, optimize, and succeed in their digital marketing and business goals.</h3> -->
         </div>
         <!-- End Title -->
 

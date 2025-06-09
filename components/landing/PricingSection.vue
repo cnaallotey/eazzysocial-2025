@@ -5,9 +5,6 @@
         <h2 class="text-3xl md:text-4xl font-bold text-center ">
           Programs to Help You <span class="text-orange-500">Grow Your Business</span>
         </h2>
-<p class="font-medium text-gray-500 text-center mt-5 mb-12 max-w-2xl mx-auto">
-  We have two flexible programs designed to help small and growing businesses increase their sales and set up systems that work — even when you're not online.
-</p>
         <!-- Grid -->
         <div class="mt-6 md:mt-12 grid sm:grid-cols-2 gap-3 md:gap-6 lg:gap-3 xl:gap-6 lg:items-center">
           <!-- Monthly Growth Card -->
