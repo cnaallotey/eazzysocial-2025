@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  title: 'Eazzysocial – Business Growth & Digital Marketing in Ghana',
+  title: 'Eazzysocial – Business Growth, AI, Digital Marketing and SME Academy',
   description: 'We help your business grow with real results, not empty promises. Try our growth services free for a month. No upfront fees, pay only when you grow.',
   ogTitle: 'Eazzysocial – Business Growth & Digital Marketing in Ghana',
   ogDescription: 'We help your business grow with real results, not empty promises. Try our growth services free for a month. No upfront fees, pay only when you grow.',
