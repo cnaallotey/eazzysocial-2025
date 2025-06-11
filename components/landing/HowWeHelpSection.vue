@@ -28,44 +28,7 @@
             <ul class="space-y-10 xl:space-y-16 max-w-lg text-lg">
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <polyline
-                      points="32.7 76.92 128 129.08 223.3 76.92"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="128"
-                      y1="129.09"
-                      x2="128"
-                      y2="231.97"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <path
-                      d="M219.84,182.84l-88,48.18a8,8,0,0,1-7.68,0l-88-48.18a8,8,0,0,1-4.16-7V80.18a8,8,0,0,1,4.16-7l88-48.18a8,8,0,0,1,7.68,0l88,48.18a8,8,0,0,1,4.16,7v95.64A8,8,0,0,1,219.84,182.84Z"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <polyline
-                      points="81.56 48.31 176 100 176 152"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M223.68,66.15,135.68,18a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32l80.35,44L178.57,92.29l-80.35-44Zm0,88L47.65,76,81.56,57.43l80.35,44Zm88,55.85h0l-80,43.79V133.83l32-17.51V152a8,8,0,0,0,16,0V107.56l32-17.51v85.76Z" fill="currentColor" /></svg>
                 </div>
                 <div>
                   <span
@@ -80,25 +43,7 @@
               </li>
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <polyline
-                      points="80 144 112 112 144 144 176 112"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <path
-                      d="M79.93,211.11a96,96,0,1,0-35-35h0L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47Z"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path fill="currentColor" d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM88,96a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z"/></svg>
                 </div>
                 <div>
                   <span
@@ -123,17 +68,7 @@
             <ul class="space-y-10 xl:space-y-16 max-w-lg text-lg">
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <path
-                      d="M34.1,61.38A8,8,0,0,1,40,48H216a8,8,0,0,1,5.92,13.38L152,136v58.65a8,8,0,0,1-3.56,6.66l-32,21.33A8,8,0,0,1,104,216V136Z"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path fill="currentColor" d="M227.81,66.76l-.08.09L160,139.17v55.49A16,16,0,0,1,152.87,208l-32,21.34A16,16,0,0,1,96,216V139.17L28.27,66.85l-.08-.09A16,16,0,0,1,40,40H216a16,16,0,0,1,11.84,26.76Z"/></svg>
                 </div>
                 <div class="text-gray-600">
                   <span
@@ -219,29 +154,7 @@
               </li>
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <path
-                      d="M168,152c-8.3,14.35-22.23,24-40,24s-31.7-9.65-40-24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <circle
-                      cx="128"
-                      cy="128"
-                      r="96"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <circle cx="92" cy="108" r="16" />
-                    <circle cx="164" cy="108" r="16" />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path fill="currentColor" d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM92,96a12,12,0,1,1-12,12A12,12,0,0,1,92,96Zm82.92,60c-10.29,17.79-27.39,28-46.92,28s-36.63-10.2-46.92-28a8,8,0,1,1,13.84-8c7.47,12.91,19.21,20,33.08,20s25.61-7.1,33.08-20a8,8,0,1,1,13.84,8ZM164,120a12,12,0,1,1,12-12A12,12,0,0,1,164,120Z"/></svg>
                 </div>
                 <div>
                   <span
@@ -256,62 +169,7 @@
               </li>
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <rect
-                      x="24"
-                      y="76"
-                      width="208"
-                      height="124"
-                      rx="8"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="24"
-                      y1="132"
-                      x2="232"
-                      y2="132"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="72"
-                      y1="116"
-                      x2="72"
-                      y2="148"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="184"
-                      y1="116"
-                      x2="184"
-                      y2="148"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <path
-                      d="M168,76V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V76"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path fill="currentColor" d="M224,64H176V56a24,24,0,0,0-24-24H104A24,24,0,0,0,80,56v8H32A16,16,0,0,0,16,80v28a4,4,0,0,0,4,4H64V96.27A8.17,8.17,0,0,1,71.47,88,8,8,0,0,1,80,96v16h96V96.27A8.17,8.17,0,0,1,183.47,88,8,8,0,0,1,192,96v16h44a4,4,0,0,0,4-4V80A16,16,0,0,0,224,64Zm-64,0H96V56a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8Zm80,68v60a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V132a4,4,0,0,1,4-4H64v16a8,8,0,0,0,8.53,8A8.17,8.17,0,0,0,80,143.73V128h96v16a8,8,0,0,0,8.53,8,8.17,8.17,0,0,0,7.47-8.25V128h44A4,4,0,0,1,240,132Z"/></svg>
                 </div>
                 <div>
                   <span
@@ -348,68 +206,7 @@
             <ul class="space-y-10 xl:space-y-16 max-w-lg text-lg">
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <circle cx="88" cy="104" r="16" />
-                    <circle cx="168" cy="104" r="16" />
-                    <rect
-                      x="32"
-                      y="56"
-                      width="192"
-                      height="160"
-                      rx="24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="128"
-                      y1="56"
-                      x2="128"
-                      y2="16"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <rect
-                      x="68"
-                      y="144"
-                      width="120"
-                      height="36"
-                      rx="18"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="148"
-                      y1="144"
-                      x2="148"
-                      y2="180"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="108"
-                      y1="144"
-                      x2="108"
-                      y2="180"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path fill="currentColor" d="M224.32,114.24a56,56,0,0,0-60.07-76.57A56,56,0,0,0,67.93,51.44a56,56,0,0,0-36.25,90.32A56,56,0,0,0,69,217,56.39,56.39,0,0,0,83.59,219a55.75,55.75,0,0,0,8.17-.61,56,56,0,0,0,96.31-13.78,56,56,0,0,0,36.25-90.32Zm-80.32,23-16,9.24-16-9.24V118.76l16-9.24,16,9.24Zm38.85-82.81a40,40,0,0,1,28.56,48c-.95-.63-1.91-1.24-2.91-1.81L164,74.88a8,8,0,0,0-8,0l-44,25.41V81.81l40.5-23.38A39.76,39.76,0,0,1,182.85,54.43Zm-142,32.5A39.75,39.75,0,0,1,64.12,68.57C64.05,69.71,64,70.85,64,72v51.38a8,8,0,0,0,4,6.93l44,25.4L96,165,55.5,141.57A40,40,0,0,1,40.86,86.93ZM136,224a39.79,39.79,0,0,1-27.52-10.95c1-.51,2-1.05,3-1.63L156,185.73a8,8,0,0,0,4-6.92V128l16,9.24V184A40,40,0,0,1,136,224Z"/></svg>
                 </div>
                 <div>
                   <span
@@ -424,25 +221,7 @@
               </li>
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <path
-                      d="M224,200v8a32,32,0,0,1-32,32H136"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <path
-                      d="M224,128H192a16,16,0,0,0-16,16v40a16,16,0,0,0,16,16h32V128a96,96,0,1,0-192,0v56a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V144a16,16,0,0,0-16-16H32"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path fill="currentColor" d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM96,128a32,32,0,1,1,32,32A32,32,0,0,1,96,128Zm88.28-67.6L155.79,88.9a47.84,47.84,0,0,0-55.58,0L71.72,60.4a87.83,87.83,0,0,1,112.56,0ZM71.72,195.6l28.49-28.5a47.84,47.84,0,0,0,55.58,0l28.49,28.5a87.83,87.83,0,0,1-112.56,0Z"/></svg>
                 </div>
                 <div>
                   <span
@@ -457,52 +236,7 @@
               </li>
               <li class="flex items-start gap-3">
                 <div class="flex-shrink-0 w-8 h-8 text-orange-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-                    <rect width="256" height="256" fill="none" />
-                    <rect
-                      x="132"
-                      y="100"
-                      width="124"
-                      height="92"
-                      rx="16"
-                      transform="translate(340 -48) rotate(90)"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="112"
-                      y1="208"
-                      x2="88"
-                      y2="208"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <path
-                      d="M148,168H40a16,16,0,0,1-16-16V64A16,16,0,0,1,40,48H184a16,16,0,0,1,16,16V84"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                    <line
-                      x1="188"
-                      y1="124"
-                      x2="200"
-                      y2="124"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="24"
-                    />
-                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path fill="currentColor" d="M224,72H208V64a24,24,0,0,0-24-24H40A24,24,0,0,0,16,64v96a24,24,0,0,0,24,24H152v8a24,24,0,0,0,24,24h48a24,24,0,0,0,24-24V96A24,24,0,0,0,224,72Zm8,120a8,8,0,0,1-8,8H176a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8Zm-96,16a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h40A8,8,0,0,1,136,208Zm80-96a8,8,0,0,1-8,8H192a8,8,0,0,1,0-16h16A8,8,0,0,1,216,112Z"/></svg>
                 </div>
                 <div>
                   <span
