@@ -37,7 +37,7 @@
       <!-- Section Header -->
       <div class="text-center mt-10">
         <p class="text-xl text-gray-600 max-w-3xl mx-auto font-semibold mt-5">
-          First month free. We help you grow first, then you only as you grow.
+          First month free. We help you grow first, then you pay only as you grow.
         </p>
       </div>
       <!-- CTA Section -->
