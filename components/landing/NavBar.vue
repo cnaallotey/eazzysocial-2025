@@ -14,13 +14,13 @@
           <NuxtLink to="/#growth-consulting" class="text-gray-600 hover:text-sky-600 transition-colors">
             Growth Consulting
           </NuxtLink>
-          <NuxtLink to="/#shop-attendant-course" class="text-gray-600 hover:text-sky-600 transition-colors">
+          <NuxtLink to="/digital-sales" class="text-gray-600 hover:text-sky-600 transition-colors">
             Digital Sales
           </NuxtLink>
           <NuxtLink to="/#training" class="text-gray-600 hover:text-sky-600 transition-colors">
             Training
           </NuxtLink>
-          <NuxtLink to="/#sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
+          <NuxtLink to="/sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
             SME Academy
           </NuxtLink>
           <NuxtLink to="/#pricing" class="text-gray-600 hover:text-sky-600 transition-colors">
@@ -73,13 +73,13 @@
           <NuxtLink to="/#growth-consulting" class="text-gray-600 hover:text-sky-600 transition-colors">
             Growth Consulting
           </NuxtLink>
-          <NuxtLink to="/#shop-attendant-course" class="text-gray-600 hover:text-sky-600 transition-colors">
+          <NuxtLink to="/digital-sales" class="text-gray-600 hover:text-sky-600 transition-colors">
             Digital Sales
           </NuxtLink>
           <NuxtLink to="/#training" class="text-gray-600 hover:text-sky-600 transition-colors">
             Training
           </NuxtLink>
-          <NuxtLink to="/#sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
+          <NuxtLink to="/sme-academy" class="text-gray-600 hover:text-sky-600 transition-colors">
             SME Academy
           </NuxtLink>
           <NuxtLink to="/#pricing" class="text-gray-600 hover:text-sky-600 transition-colors">

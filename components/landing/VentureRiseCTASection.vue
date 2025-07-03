@@ -1,6 +1,6 @@
 <template>
     <section class="py-16 bg-white">
-      <div class="container mx-auto bg-[url('https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=760&q=100')] bg-cover bg-center">
+      <div class="max-w-5xl mx-auto bg-[url('https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=760&q=100')] bg-cover bg-center">
         <div class="relative overflow-hidden bg-gradient-to-r from-black">
     <div class="max-w-[85rem] px-4 py-12 sm:px-6 lg:px-8 lg:py-16 mx-auto">
       <!-- Gradients -->
@@ -24,8 +24,8 @@
                 Let’s grow your business to GHS500,000 and beyond
             </p>
             <NuxtLink
-            to="/contact"
-            class="inline-flex mt-6 items-center justify-center px-8 py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors duration-300"
+            to="/register"
+            class="inline-flex mt-6 items-center justify-center px-8 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors duration-300"
           >
             Join Now
           </NuxtLink>

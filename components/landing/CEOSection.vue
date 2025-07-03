@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 md:py-32 bg-white">
+  <section class="pb-20 md:pb-32 bg-white">
     <div class="container mx-auto px-4 relative">
       <div class="absolute top-1/2 start-1/2 -z-1 transform -translate-y-1/2 -translate-x-1/2 w-85 h-85 border border-dashed border-sky-200 rounded-full dark:border-sky-900/60"></div>
       <div class="absolute top-1/2 start-1/2 -z-1 transform -translate-y-1/2 -translate-x-1/2 w-[575px] h-[575px] border border-dashed border-sky-200 rounded-full opacity-80 dark:border-sky-900/60"></div>

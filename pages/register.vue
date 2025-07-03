@@ -1,7 +1,8 @@
 <template>
     <div class="w-full min-h-screen bg-[url('https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=1250&dpr=2')] bg-cover bg-center">
+      <LandingNavBar class=""/>
         <!-- Hire Us -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+<div class="max-w-[85rem] px-4 mt-16 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <!-- Grid -->
   <div class="grid md:grid-cols-2 items-start gap-12">
     <div class="p-4 md:p-8 bg-sky-900 rounded-3xl">

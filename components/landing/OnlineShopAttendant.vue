@@ -2,7 +2,7 @@
   <section class="">
     <div class="max-w-7xl px-4 xl:px-0  pt-20 md:pt-32 mx-auto">
       <div class="max-w-3xl mb-10 lg:mb-14">
-        <h2 class="text-gray-900 font-bold text-2xl md:text-4xl md:leading-tight">Eazzysocial <span class="text-orange-500">Online Shop Attendant Program</span></h2>
+        
         <p class="mt-1 text-gray-500 hidden">Coming Soon: Growth Marketing, Social Media & Digital Marketing Programs</p>
         <p class="mt-1 hidden text-gray-800 font-medium text-lg">Gone are the days when a shop assistant only stayed behind a counter. Today’s business needs someone who can help run everything online and offline from managing WhatsApp, TikTok, Facebook, Instagram business accounts, e-commerce stores, or even send email, SMS updates to customers, handling delivery, digital payments, and customer service.</p>
       </div>
@@ -14,7 +14,8 @@
 
         <div>
           <div class="mb-4">
-            <h3 class="text-orange-500 text-2xl font-medium"> Why This Program?</h3>
+            <h2 class="text-gray-900 font-bold text-2xl md:text-4xl md:leading-tight">Why This <span class="text-orange-500">Program</span>?</h2>
+            <h3 class="text-orange-500 hidden text-2xl font-medium"> Why This Program?</h3>
           </div>
           <p class="mb-5">Many businesses today operate both in-store and online, on WhatsApp, Instagram, Facebook, Amazon, Jiji, and more. <br><br>
 But your typical shop assistant isn’t trained to manage:
