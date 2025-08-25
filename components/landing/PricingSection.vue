@@ -47,6 +47,12 @@
                   Light business coaching and support to keep you on track
                 </span>
               </li>
+              <li class="flex items-center gap-x-2">
+                <span class="size-8 flex items-center justify-center bg-green-500 rounded-full shrink-0"><svg class="shrink-0 mt-0.5 size-4 text-white " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+                <span class="text-gray-800">
+                  Advanced Facebook, Instagram, TikTok, and Google ads to drive traffic
+                </span>
+              </li>
             </ul>
 
             <p class="mt-6 text-sm text-sky-600">Perfect for: Micro and small business owners trying to grow from zero to GHS500,000 in sales per year.</p>

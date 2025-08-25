@@ -19,3 +19,22 @@
     </div>
   </div>
 </template>
+
+<script setup>
+
+const route = useRoute()
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId)
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
+onMounted(() => {
+  if (route.hash) {
+    setTimeout(() => {
+      scrollToSection(route.hash.slice(1))
+    }, 100)
+  }
+})
+</script>

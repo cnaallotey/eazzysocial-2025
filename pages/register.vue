@@ -337,7 +337,7 @@ const handleSubmit = async () => {
     
     const formData = new FormData(formRef.value)
     
-    const response = await fetch('https://getform.io/f/bronnvva', {
+    const response = await fetch('https://getform.io/f/bolzogma', {
       method: 'POST',
       body: formData,
       headers: {
